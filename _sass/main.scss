@@ -18,7 +18,7 @@
       border: 1px solid #bbb;
   
       &:focus {
-        outline-color: 1px bold;
+        outline-color: #92a8d1;
       }
     }
     input.field, textarea {
@@ -32,13 +32,13 @@
     }
     button {
       border: 0;
-      background-color: 1px bold;
+      background-color: #92a8d1;
       padding: 8px 20px;
       color: #fff;
       margin-top: 20px;
   
       &:hover {
-        background-color: darken(1px bold, 10%);
+        background-color: darken(#92a8d1, 10%);
         color: darken(#fff, 10%);
       }
     }
